@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+// redux  ||  MobX => Payment  className property metod
+// thunkAsync
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// react.js library => moduler | library 
+// react.js 
+// routing => react-router-dom
+
+// angular.js => angular 2  => 15 
+//vuex
+
+// next.js 
+
+// angular  routing, autherization, intercept  Framework
+
+import { Link } from "react-router-dom";
+import Navbar from "./layout/Navbar";
+import CourseList from "./components/CourseList";
+
+
+const App = () => {
+  return <>
+
+    <Navbar></Navbar>
+    
+    <CourseList></CourseList>
+
+
+
+
+  </>
 }
+
 
 export default App;
